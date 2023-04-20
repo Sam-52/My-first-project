@@ -5,14 +5,14 @@
 
 body {
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     background-color: hsl(212, 45%, 89%);
 }
 
 .card {
-    width: 285px;
+    max-width: 285px;
     height: fit-content;
     background-color: hsl(0, 0%, 100%);
     padding: 15px 15px;
@@ -23,7 +23,7 @@ body {
 }
 
 .card img {
-    width: 285px;
+    width: 100%;
     height: fit-content;
     border-radius: 15px 15px;
 }
@@ -31,13 +31,13 @@ body {
 h1 {
     font-size: 23px;
     color: hsl(218, 44%, 22%) ;
-    padding: 13px 13px;
+    padding: 15px 10px;
     font-weight: 700;
 }
 
 p {
     color: hsl(220, 15%, 55%);
-    padding: 15px 15px;
+    padding: 7px 15px;
     font-weight: 400;
     font-size: 15px;
 }
